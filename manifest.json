@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Reddit Tab Closer",
+    "version": "1.0",
+    "description": "Closes all Reddit tabs every 30 seconds.",
+    "permissions": [
+      "tabs",
+      "scripting"
+    ],
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    },
+    "host_permissions": [
+      "https://*.reddit.com/*"
+    ]
+  }
